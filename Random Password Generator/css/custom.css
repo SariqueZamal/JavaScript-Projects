@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600;700&family=Baloo+Bhaina+2:wght@600&family=Chivo+Mono&family=PT+Serif&family=Satisfy&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+nav {
+    background-color: rgb(37, 9, 37);
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white;
+    height: 10vh;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding: 0 45px;
+}
+
+input:focus-visible{
+    outline: 0;
+}
+
+.main{
+    background-color: rgb(230, 132, 102);
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    min-width: 400px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+    background-color:rgb(230, 132, 102);
+    border-radius: 10px;
+}
+
+#pass-box{
+    width: 100%;
+    display: block;
+    background-color: white;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    font-size: 20px;
+    color: black;
+}
+
+label{
+    user-select: none;
+}
+
+#btn{
+    width: 100%;
+    font-size: 30px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: rgb(37, 9, 37);
+    color:white;
+    margin-top: 10px;
+    border-radius: 7px;
+}
