@@ -11,7 +11,7 @@ body {
 #container {
   width: 40vw;
   height: auto;
-  padding: 45px 20px 70px 30px;
+  padding: 45px 20px 70px 20px;
   background-color: white;
   margin: auto;
   text-align: center;
@@ -24,7 +24,7 @@ h1 {
 }
 
 input {
-  width: 370px;
+  width: 75%;
   height: 29px;
   padding: 13px;
   margin: 0;
@@ -41,7 +41,7 @@ input:focus{
 
 button {
   margin-left: -4px;
-  width: 65px;
+  width: 17%;
   height: 29px;
   border: none;
   background-color: rgb(141, 141, 211);
