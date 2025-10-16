@@ -6,3 +6,8 @@
 .container{
     margin:auto;
 }
+
+.container div{
+    width:80%;
+    height:auto;
+}
