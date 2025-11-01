@@ -16,9 +16,27 @@
       <p class="alert"></p>
       <h1>Grocery Bud</h1>
       <form>
-        <input type="text" placeholder="e.g. Milk" autofocus />
-        <button type="submit">Submit</button>
+        <div class="form-control">
+          <input type="text" placeholder="e.g. Milk" autofocus />
+          <button type="submit">Submit</button>
+        </div>
       </form>
+      <div class="grocery-container">
+        <div class="grocery-list">
+          <article class="grocery-list">
+            <p class="title">Fish</p>
+            <div class="btn-conatiner">
+              <button type="button" class="edit-btn">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button type="button" class="delete-btn">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </article>
+        </div>
+        <button>Clear Items</button>
+      </div>
     </section>
   </body>
 </html>
