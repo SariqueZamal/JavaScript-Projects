@@ -77,6 +77,27 @@ input:focus {
   background: none;
   outline: none;
   border: none;
+  visibility: hidden;
+}
+
+.edit-btn{
+  color:rgb(125, 186, 125);
+  background: none;
+  border: none;
+}
+
+.edit-btn:hover{
+  color:rgb(24, 172, 24);
+}
+
+.delete-btn{
+  color:rgb(185, 108, 108);
+  background: none;
+  border: none;
+}
+
+.delete-btn:hover{
+  color:rgb(180, 42, 42);
 }
 
 .clear:hover{
