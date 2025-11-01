@@ -48,6 +48,11 @@ input:focus {
   border-bottom-right-radius: 7px;
 }
 
+.form-control button:hover{
+  background-color: rgb(63, 63, 196);
+  color: white;
+}
+
 .grocery-container {
   padding: 25px 11px 25px 17px;
 }
@@ -65,4 +70,15 @@ input:focus {
 .grocery-item:hover {
   background-color: hsl(210, 31%, 93%);
   height: auto;
+}
+
+.clear{
+  color: rgb(211, 123, 123);
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.clear:hover{
+  color: brown;
 }
