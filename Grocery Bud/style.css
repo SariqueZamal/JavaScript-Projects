@@ -11,7 +11,7 @@ body {
 #container {
   width: 40vw;
   height: auto;
-  padding: 45px 20px 70px 20px;
+  padding: 45px 20px 9px 20px;
   background-color: white;
   margin: auto;
   text-align: center;
@@ -25,25 +25,44 @@ h1 {
 
 input {
   width: 75%;
-  height: 29px;
+  height: 35px;
   padding: 13px;
   border: none;
   outline: none;
-  background-color:hsl(210, 31%, 93%) ;
-  border-top-left-radius:7px ;
+  background-color: hsl(210, 31%, 93%);
+  border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
 }
 
-input:focus{
+input:focus {
   border: 2px solid black;
 }
 
-button {
+.form-control button {
   margin-left: -4px;
   width: 17%;
-  height: 29px;
+  height: 35px;
   border: none;
   background-color: rgb(141, 141, 211);
-  border-top-right-radius:7px ;
+  border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
+}
+
+.grocery-container {
+  padding: 25px 11px 25px 17px;
+}
+
+.grocery-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 98.5%;
+  padding: 8px;
+  margin-bottom: 19px;
+  border-radius: 7px;
+}
+
+.grocery-item:hover {
+  background-color: hsl(210, 31%, 93%);
+  height: auto;
 }
