@@ -28,12 +28,12 @@ submit.addEventListener("click", function (e) {
   // If value is not valid then return
   if (trimValue == "") {
     alert.innerText = "Please Enter Valid Value. . .";
+    input.value = "";
     setTimeout(() => {
-      alert.remove();
+      alert.innerText = "";
     }, 2000);
     return;
-  } 
-  else {
+  } else {
     container.append(article);
     clearBtn.style.visibility = "visible";
 
@@ -43,9 +43,8 @@ submit.addEventListener("click", function (e) {
     }, 1000);
 
     setTimeout(() => {
-      alert.remove();
+      alert.innerText = "";
     }, 2000);
-
-    input.value = "";
   }
+  input.value = "";
 });
