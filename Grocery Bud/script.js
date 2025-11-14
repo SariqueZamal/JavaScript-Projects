@@ -23,10 +23,10 @@ function addItem(e) {
   <p class="title" id='${count}'>${trimValue}</p>
   <div class="btn-conatiner">
   <button type="button" class="edit-btn">
-                <i class="fas fa-edit" id='${count}'></i>
+                <i class="fas fa-edit"></i>
                 </button>
                 <button type="button" clas="delete-btn">
-                <i class="fas fa-trash" id='${count}'></i>
+                <i class="fas fa-trash"></i>
                 </button>
                 </div>
                 `;
