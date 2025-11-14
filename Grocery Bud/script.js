@@ -51,7 +51,7 @@ function addItem(e) {
       alert.innerText = "";
     }, 1000);
   } else {
-    Children.children[0].innerText = trimValue;
+    editElement.children[0].innerText = trimValue;
     alert.innerText = "Item edited Successfully.";
     submit.innerText = "Submit";
 
@@ -67,11 +67,10 @@ container.addEventListener("click", edit);
 function edit(e) {
   if (e.target.classList == "fas fa-edit") {
     input.focus();
-    editElement = e.target.id;
-    eElement = e.currentTarget;
-    Children = eElement.children[editElement];
+    editElementID = e.target.id;
+    editElement = e.currentTarget.children[editElementID];
 
-    input.value = Children.children[0].innerText;
+    input.value = editElement.children[0].innerText;
 
     editflag = true;
     submit.innerText = "Edit";
