@@ -3,25 +3,31 @@ let submit = document.querySelector("#submit");
 let container = document.querySelector(".grocery-list");
 let clearBtn = document.querySelector(".clear");
 let alert = document.querySelector(".alert");
+let editflag = false;
+let count = 0;
 
 // Add Item
-submit.addEventListener("click", function (e) {
+submit.addEventListener("click", addItem);
+
+function addItem(e) {
   e.preventDefault();
 
   let article = document.createElement("article");
   article.classList.add("grocery-item");
 
+  let trimValue = input.value.trim(); // trim the value
+
   article.innerHTML = `
-  <p class="title">${input.value}</p>
-            <div class="btn-conatiner">
-              <button type="button" class="edit-btn">
-                <i class="fas fa-edit"></i>
-              </button>
-              <button type="button" class="delete-btn">
-                <i class="fas fa-trash"></i>
-              </button>
-            </div>
-  `;
+  <p class="title" id='${count}'>${trimValue}</p>
+  <div class="btn-conatiner">
+  <button type="button" class="edit-btn">
+                <i class="fas fa-edit" id='${count}'></i>
+                </button>
+                <button type="button" clas="delete-btn">
+                <i class="fas fa-trash" id='${count}'></i>
+                </button>
+                </div>
+                `;
 
   let trimValue = input.value.trim(); // trim the value
 
