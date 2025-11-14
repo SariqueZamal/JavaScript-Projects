@@ -4,8 +4,9 @@ let container = document.querySelector(".grocery-list");
 let clearBtn = document.querySelector(".clear");
 let alert = document.querySelector(".alert");
 
-let editflag = false;
-let count = 0;
+
+let editflag = false; // Use for editing list
+let count = 0; // use for Id
 
 // Add Item
 submit.addEventListener("click", addItem);
@@ -38,20 +39,26 @@ function addItem(e) {
       alert.innerText = "";
     }, 1000);
     return;
-  } else if (editflag == false) {
+  } 
+  // If need to create new item
+  else if (editflag == false) {
     container.append(article);
     count++;
 
     clearBtn.style.visibility = "visible";
 
-    // Display
+    // Display message on the top
     alert.innerText = "Item added Successfully.";
 
     setTimeout(() => {
       alert.innerText = "";
     }, 1000);
-  } else {
+  } 
+  // if we edit in the existing list
+  else {
     editElement.children[0].innerText = trimValue;
+
+    // Display message on the top
     alert.innerText = "Item edited Successfully.";
     submit.innerText = "Submit";
 
