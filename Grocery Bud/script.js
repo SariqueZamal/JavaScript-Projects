@@ -60,3 +60,17 @@ function addItem(e) {
   }
   input.value = "";
 }
+
+function edit(e) {
+  if (e.target.classList == "fas fa-edit") {
+    input.focus();
+    editElement = e.target.id;
+    eElement = e.currentTarget;
+    Children = eElement.children[editElement];
+
+    input.value = Children.children[0].innerText;
+
+    editflag = true;
+    submit.innerText = "Edit";
+  }
+}
