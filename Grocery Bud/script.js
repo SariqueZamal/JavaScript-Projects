@@ -29,28 +29,34 @@ function addItem(e) {
                 </div>
                 `;
 
-  let trimValue = input.value.trim(); // trim the value
-
-  // If value is not valid then return
+// If value is not valid then return
   if (trimValue == "") {
     alert.innerText = "Please Enter Valid Value. . .";
     input.value = "";
     setTimeout(() => {
       alert.innerText = "";
-    }, 2000);
+    }, 1000);
     return;
-  } else {
+  } else if (editflag == false) {
     container.append(article);
+    count++;
+
     clearBtn.style.visibility = "visible";
 
     // Display
-    setTimeout(() => {
-      alert.innerText = "Item added Successfully.";
-    }, 1000);
+    alert.innerText = "Item added Successfully.";
 
     setTimeout(() => {
       alert.innerText = "";
-    }, 2000);
+    }, 1000);
+  } else {
+    Children.children[0].innerText = trimValue;
+    alert.innerText = "Item edited Successfully.";
+    submit.innerText = "Submit";
+
+    setTimeout(() => {
+      alert.innerText = "";
+    }, 1000);
   }
   input.value = "";
-});
+}
