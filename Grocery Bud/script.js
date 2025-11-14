@@ -3,6 +3,7 @@ let submit = document.querySelector("#submit");
 let container = document.querySelector(".grocery-list");
 let clearBtn = document.querySelector(".clear");
 let alert = document.querySelector(".alert");
+
 let editflag = false;
 let count = 0;
 
@@ -29,7 +30,7 @@ function addItem(e) {
                 </div>
                 `;
 
-// If value is not valid then return
+  // If value is not valid then return
   if (trimValue == "") {
     alert.innerText = "Please Enter Valid Value. . .";
     input.value = "";
@@ -60,6 +61,8 @@ function addItem(e) {
   }
   input.value = "";
 }
+
+container.addEventListener("click", edit);
 
 function edit(e) {
   if (e.target.classList == "fas fa-edit") {
