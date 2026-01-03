@@ -14,6 +14,5 @@ document.getElementById("btn").addEventListener(
     getColor
 )
 
-
 // Init Call
 getColor(); 
