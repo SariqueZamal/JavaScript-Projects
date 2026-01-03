@@ -8,7 +8,6 @@ const getColor = () => {
     navigator.clipboard.writeText(randomCode);
 }
 
-
 //Event Call
 document.getElementById("btn").addEventListener(
     "click",
