@@ -30,7 +30,6 @@ const showWeather = (data) => {
   `
 }
 
-
 form.addEventListener("submit", function(event){
   getWeather(search.value)
   event.preventDefault();
