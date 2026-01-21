@@ -15,7 +15,6 @@ const getWeather = async(city) => {
 }
 
 const showWeather = (data) => {
-
   if(data.cod == "404"){
     weather.innerHTML = `<h2> City Not Found <h2>`
     return;
