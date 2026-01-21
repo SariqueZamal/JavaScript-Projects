@@ -14,7 +14,6 @@ const getWeather = async(city) => {
   return showWeather(data);
 }
 
-
 const showWeather = (data) => {
 
   if(data.cod == "404"){
