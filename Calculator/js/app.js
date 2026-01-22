@@ -6,7 +6,8 @@ function calculate(){
   
   if(form.disp.value == ""){
     alert("Please Enter numbers")
-  }else{
+  }
+  else{
     form.disp.value = eval(form.disp.value);
   }
 }
