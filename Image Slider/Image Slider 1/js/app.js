@@ -11,6 +11,7 @@ const goPrev = () => {
     slideImage()
 }
 
+
 const goNext = () => {
     if (counter < 4) {
         counter++
