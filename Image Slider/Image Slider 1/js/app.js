@@ -7,6 +7,7 @@ slides.forEach(
     }
 )
 
+
 const goPrev = () => {
     counter--
     slideImage()
