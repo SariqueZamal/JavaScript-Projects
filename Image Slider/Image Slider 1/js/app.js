@@ -19,6 +19,7 @@ const goNext = () => {
     }
 }
 
+
 const slideImage = () => {
     slides.forEach(
         (slide) => {
