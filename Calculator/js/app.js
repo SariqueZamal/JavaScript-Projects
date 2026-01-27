@@ -16,5 +16,6 @@ function calculate(){
 
 var btn = form.veql;
 btn.addEventListener("dblclick", function(){
-  form.disp.value = "" //  when we click on equal button
+form.disp.value = "" 
+//  when we click on equal button
 });
