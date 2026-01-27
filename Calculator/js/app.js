@@ -13,6 +13,7 @@ function calculate(){
   }
 }
 
+
 var btn = form.veql;
 btn.addEventListener("dblclick", function(){
   form.disp.value = "" //  when we click on equal button
