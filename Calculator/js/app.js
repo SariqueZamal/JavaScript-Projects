@@ -3,6 +3,7 @@ function val(result){
 }
 
 function calculate(){
+  
   if(form.disp.value == ""){
     alert("Please Enter numbers")
   }
