@@ -12,10 +12,12 @@ item.addEventListener("keyup", function (event) {
 
 const addToDo = (item) => {
   const listItem = document.createElement("li");
-  listItem.innerHTML = `
+  listItem.innerHTML = 
+  `
   ${item}
   <i class="fas fa-times"></i>
-  `;
+  `
+  ;
 
   listItem.addEventListener("click", function(){
     this.classList.toggle("done");
