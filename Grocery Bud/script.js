@@ -6,8 +6,8 @@ let alert = document.querySelector(".alert");
 
 // Use for editing list
 let editflag = false;
-
-let count = 0; // use for Id
+// use for Id
+let count = 0; 
 
 // Add Item
 submit.addEventListener("click", addItem);
