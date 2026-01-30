@@ -6,6 +6,7 @@ let alert = document.querySelector(".alert");
 
 // Use for editing list
 let editflag = false;
+
 let count = 0; // use for Id
 
 // Add Item
