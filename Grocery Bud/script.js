@@ -4,7 +4,6 @@ let container = document.querySelector(".grocery-list");
 let clearBtn = document.querySelector(".clear");
 let alert = document.querySelector(".alert");
 
-
 let editflag = false; // Use for editing list
 let count = 0; // use for Id
 
