@@ -20,7 +20,8 @@ function addItem(e) {
 
   let trimValue = input.value.trim(); // trim the value
 
-  article.innerHTML = `
+  article.innerHTML = 
+  `
   <p class="title" id='${count}'>${trimValue}</p>
   <div class="btn-conatiner">
   <button type="button" class="edit-btn">
