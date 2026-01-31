@@ -1,7 +1,6 @@
 const item = document.querySelector("#item");
 const toDoBox = document.querySelector("#to-do-box");
 
-
 item.addEventListener("keyup", function (event) {
   if (event.key == "Enter") {
     addToDo(this.value)
