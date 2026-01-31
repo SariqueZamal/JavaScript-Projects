@@ -13,8 +13,7 @@ const addToDo = (item) => {
   listItem.innerHTML = 
   `${item}
   <i class="fas fa-times"></i>
-  `
-  ;
+  `;
 
   listItem.addEventListener("click", function(){
     this.classList.toggle("done");
