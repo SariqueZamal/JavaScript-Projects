@@ -8,7 +8,6 @@ item.addEventListener("keyup", function (event) {
   }
 });
 
-
 const addToDo = (item) => {
   const listItem = document.createElement("li");
   listItem.innerHTML = 
