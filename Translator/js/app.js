@@ -5,7 +5,6 @@ exchangeIcon = document.querySelector(".exchange");
 translateBtn = document.querySelector("button");
 icons = document.querySelectorAll(".row i")
 
-
 selectTag.forEach((tag, id) => {
   for (const country_code in countries) {
     let selected;
