@@ -20,7 +20,6 @@ selectTag.forEach((tag, id) => {
   }
 })
 
-
 exchangeIcon.addEventListener("click", () => {
 
   //exchange textarea and select tag value
