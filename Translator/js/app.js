@@ -47,7 +47,6 @@ translateBtn.addEventListener("click", () => {
 
   //fetching api response and returning it with parsing into js obj
   //and in another then method receiving that obj
-
   fetch(apiUrl).then(res => res.json()).then(data => {
     toText.value = data.responseData.translatedText;
     toText.setAttribute("placeholder", "translating. . .");
