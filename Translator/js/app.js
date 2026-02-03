@@ -3,6 +3,7 @@ toText = document.querySelector(".to-text");
 
 selectTag = document.querySelectorAll("select");
 exchangeIcon = document.querySelector(".exchange");
+
 translateBtn = document.querySelector("button");
 icons = document.querySelectorAll(".row i")
 
