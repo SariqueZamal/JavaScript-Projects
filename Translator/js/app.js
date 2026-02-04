@@ -34,7 +34,6 @@ exchangeIcon.addEventListener("click", () => {
   selectTag[0].value = selectTag[1].value;
   toText.value = tempText;
   selectTag[1].value = tempLang;
-
 });
 
 
