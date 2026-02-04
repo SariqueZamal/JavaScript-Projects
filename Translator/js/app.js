@@ -8,6 +8,7 @@ translateBtn = document.querySelector("button");
 icons = document.querySelectorAll(".row i")
 
 selectTag.forEach((tag, id) => {
+  
   for (const country_code in countries) {
     let selected;
     if (id == 0 && country_code == "en-GB") {
