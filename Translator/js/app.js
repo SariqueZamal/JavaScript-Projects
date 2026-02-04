@@ -18,6 +18,7 @@ selectTag.forEach((tag, id) => {
     }
 
     let option = `<option value = "${country_code}" ${selected}>${countries[country_code]}</option>`;
+  
     tag.insertAdjacentHTML("beforeend", option); 
     // adding options tag inside select tag
   }
