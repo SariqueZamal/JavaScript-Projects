@@ -12,7 +12,7 @@ paragraph.innerText = count;
 
 // reset function
 reset.addEventListener("click", function () {
-  count = 0;
+count = 0;
   paragraph.innerText = count;
 });
 
