@@ -13,7 +13,7 @@ paragraph.innerText = count;
 // reset function
 reset.addEventListener("click", function () {
 count = 0;
-  paragraph.innerText = count;
+paragraph.innerText = count;
 });
 
 // Decrease function
