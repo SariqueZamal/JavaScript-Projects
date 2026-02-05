@@ -6,7 +6,7 @@ let reset = document.querySelector("#reset");
 let count = 0;
 // Increase function
 incBtn.addEventListener("click", function () {
-  count++;
+count++;
   paragraph.innerText = count;
 });
 
