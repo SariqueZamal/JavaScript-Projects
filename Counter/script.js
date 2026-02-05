@@ -7,7 +7,7 @@ let count = 0;
 // Increase function
 incBtn.addEventListener("click", function () {
 count++;
-  paragraph.innerText = count;
+paragraph.innerText = count;
 });
 
 // reset function
