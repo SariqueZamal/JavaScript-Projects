@@ -19,6 +19,6 @@ paragraph.innerText = count;
 
 // Decrease function
 decBtn.addEventListener("click", function () {
-  count--;
+count--;
   paragraph.innerText = count;
 });
